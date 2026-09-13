@@ -1,0 +1,29 @@
+{
+  "minCrashMultiplier": 1.01,
+  "maxMultiplier": 100.0,
+  "multiplierGrowthRate": 0.15,
+  "houseEdge": 0.03,
+  "pollIntervalMs": 450,
+  "pointsPerLine": 10,
+  "pointsCashoutBonus": 25,
+  "pointsBoosterBonus": 50,
+  "startingBalance": 100000,
+  "fixedSeed": null,
+  "themes": {
+    "RED": {
+      "lineProbabilities": [0.4, 0.3, 0.2, 0.1],
+      "boosterMultipliers": [1.5, 2.0, 3.0, 5.0],
+      "levelsTotal": 4
+    },
+    "GREEN": {
+      "lineProbabilities": [0.35, 0.35, 0.2, 0.1],
+      "boosterMultipliers": [1.5, 2.5, 4.0, 6.0],
+      "levelsTotal": 4
+    }
+  },
+  "rewardWeights": {
+    "PUZZLE_A": 0.5,
+    "PUZZLE_B": 0.3,
+    "PUZZLE_C": 0.2
+  }
+}
